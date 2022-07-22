@@ -1,7 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --attribution: hsl(228, 45%, 44%);
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--light-gray);
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-top: 0.25em;
+  line-height: 1.3;
+  font-size: 1.5rem;
+}
+
+.card-container {
+  margin: 0 auto 1em;
+  max-width: 22em;
+  padding: 1em;
+  border-radius: 1.5em;
+  background-color: var(--white);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+  box-shadow: 0 1.5em 1.5em rgba(0, 0, 0, 0.05);
+}
+
+.qr-code-section img {
+  max-width: 100%;
+  display: block;
+  border-radius: 1em;
+}
+
+.content-section {
+  padding: 1em;
+}
+
+.content-section p {
+  color: var(--grayish-blue);
+  letter-spacing: 0.0125em;
+  line-height: 1.3;
+  margin-bottom: 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--attribution);
+}
+
+@media (max-width: 300px) {
+  .card-container {
+    /* margin: 3em 1em 1em; */
+  }
 }
