@@ -32,8 +32,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS custom properties
 - CSS Grid
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 While this was not a difficult project, I must say that I learned a bit doing it. I never knew what a modern css reset was until I took a look at a comment from another user and read up on it. This really came in handy - especially when it comes to images, as figuring out how to manipulate images without it was very frustrating. It is also good to modify the line-height on certain elements to increase readability.
