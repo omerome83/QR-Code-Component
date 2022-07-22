@@ -34,7 +34,7 @@ h1 {
   margin: 0 auto 1em;
   max-width: 22em;
   padding: 1em;
-  border-radius: 1.5em;
+  border-radius: 1em;
   background-color: var(--white);
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -60,15 +60,9 @@ h1 {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.73rem;
   text-align: center;
 }
 .attribution a {
   color: var(--attribution);
-}
-
-@media (max-width: 300px) {
-  .card-container {
-    /* margin: 3em 1em 1em; */
-  }
 }
